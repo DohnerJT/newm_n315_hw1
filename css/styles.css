@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.mainWrapper {
+  width: 100%;
+  height: 100%;
+}
+.mainWrapper nav {
+  border-radius: 10px;
+  background-color: crimson;
+  width: auto;
+  height: 100px;
+  margin: 10px 20px;
+}
+.mainWrapper nav .titalBar {
+  height: 50%;
+  text-align: center;
+}
+.mainWrapper nav .titalBar h2 {
+  margin: 10px auto;
+  font-size: 40px;
+  color: white;
+}
+.mainWrapper nav .linkBar {
+  height: 50%;
+  margin-bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+.mainWrapper nav .linkBar a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 15px;
+  color: white;
+}
+.mainWrapper nav .linkBar .location {
+  border: 2px solid white;
+  border-radius: 4px;
+}
+.mainWrapper .contentWrapper {
+  border: 4px solid black;
+  width: auto;
+  height: auto;
+  margin: 0px 40px;
+}
+.mainWrapper .contentWrapper .contentTitle {
+  border-bottom: 5px solid black;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.mainWrapper .contentWrapper .contentTitle h3 {
+  margin: 10px auto, auto, 20px;
+  font-size: 25px;
+}
+.mainWrapper .contentWrapper .contentBox {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  width: 100%;
+  min-height: 500px;
+}
+.mainWrapper .contentWrapper .contentBox .contentCol {
+  padding: 15px;
+  max-width: 50%;
+}
+.mainWrapper .contentWrapper .contentBox .contentCol .imageBox {
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  background-position: center;
+  background-size: cover;
+}
